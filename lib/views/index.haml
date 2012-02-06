@@ -1,0 +1,11 @@
+- Songs.all.each do |song|
+  %div.song
+    %a{:href => song[:url]}
+      %h2= "#{song[:artist]} - #{song[:track]}"
+    %iframe.youtube-player{:title            => "#{song[:artist]} - #{song[:track]}",
+                           :src              => song[:url].gsub("watch?v=", "embed/"),
+                           :type             => "text/html",
+                           :width            => "640",
+                           :height           => "390",
+                           :frameborder      => "0",
+                           :allowFullScreen  => ""}
