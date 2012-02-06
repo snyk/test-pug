@@ -2,6 +2,11 @@ class Songs
   def self.all
     [
       {
+        :artist => "Birdy",
+        :track  => "Skinny Love",
+        :url    => "http://www.youtube.com/watch?v=aNzCDt2eidg"
+      },
+      {
         :artist => "Pink Floyd",
         :track  => "Wish You Were Here",
         :url    => "http://www.youtube.com/watch?v=QCQTr8ZYdhg"
