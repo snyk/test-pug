@@ -9,7 +9,7 @@ class Songs
       {
         :artist => "Led Zeppelin",
         :track  => "Tangerine",
-        :url    => "http://www.youtube.com/watch?v=ZQ_JAgHxR14"
+        :url    => "http://www.youtube.com/watch?v=leeMrymeflQ"
       }
     ]
   end
