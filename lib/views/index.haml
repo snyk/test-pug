@@ -1,9 +1,9 @@
-%div.container-fluid.song-container
+%div.container
   - Songs.all.each do |song|
-    %div.span
+    %div.song
       %a{:href => song[:url]}
         %h2= "#{song[:artist]} - #{song[:track]}"
-      %iframe.youtube-player{:title            => "#{song[:artist]} - #{song[:track]}",
+      %iframe.player{:title            => "#{song[:artist]} - #{song[:track]}",
                              :src              => song[:url].gsub("watch?v=", "embed/"),
                              :type             => "text/html",
                              :width            => "640",
