@@ -1,7 +1,7 @@
 source :rubygems
 
 gem "sinatra"
-gem "rdiscount"
+gem "haml"
 
 group :development do
   gem "rack-test"
