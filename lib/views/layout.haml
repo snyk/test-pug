@@ -2,7 +2,10 @@
 
 %html
   %head
+    %link{:rel => "stylesheet", :href => "/css/bootstrap.min.css"}
+    %link{:rel => "stylesheet", :href => "/css/style.css"}
     %title fuckingawesomesongs.com
   %body
-    %h1 fuckingawesomesongs.com
+    %a{:href => "/"}
+      %h1 fuckingawesomesongs.com
     = yield
