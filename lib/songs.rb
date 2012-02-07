@@ -1,8 +1,4 @@
 class Songs
-  def self.random_song
-    all.sample
-  end
-
   def self.all
     [
       {

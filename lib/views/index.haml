@@ -10,7 +10,6 @@
       %a{:href => "/"}
         %h1 fuckingawesomesongs.com
 
-        - song = Songs.random_song
         %div.song
           %h2
             %a.song-title{:href => song[:url]}= "#{song[:artist]} - #{song[:track]}"
