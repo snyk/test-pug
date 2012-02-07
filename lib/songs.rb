@@ -70,6 +70,11 @@ class Songs
         :track  => "23",
         :url    => "http://www.youtube.com/watch?v=a7FqUNlEdwA"
       }
+      {
+        :artist => "Animal Collective",
+        :track  => "Summertime Clothes",
+        :url    => "http://www.youtube.com/watch?v=GxhaRgJUMl8"
+      }
     ]
   end
 end
