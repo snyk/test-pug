@@ -48,7 +48,7 @@ class Songs
       {
         :artist => "Bob Dylan",
         :track  => "Like A Rolling Stone",
-        :url    => "http://www.youtube.com/watch?v=hk3mAX5xdxo"
+        :url    => "http://www.youtube.com/watch?v=g1s47L8DrJ0"
       },
       {
         :artist => "Rolling Stones",
