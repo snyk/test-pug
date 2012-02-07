@@ -88,6 +88,11 @@ class Songs
         :track  => "Hoppípolla",
         :url    => "http://www.youtube.com/watch?v=hnAwPeqrdAk"
       }
+      {
+        :artist => "Gotye",
+        :track  => "Somebody That I Used To Know",
+        :url    => "http://www.youtube.com/watch?v=8UVNT4wvIGY"
+      }
     ]
   end
 end
