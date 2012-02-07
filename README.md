@@ -4,5 +4,6 @@ fuckingawesomesongs.com
 Want to submit a pull request?
 ------------------------------
 
-* no fucking tab spaces
-* only "fucking awesome" songs. This isn't fuckingmediocresongs.com
+* No fucking tab spaces.
+* Only "fucking awesome" songs. This isn't fuckingmediocresongs.com.
+* One song per pull request please. This ensures that the song you add truly is fucking awesome.
