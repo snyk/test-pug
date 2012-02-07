@@ -64,6 +64,11 @@ class Songs
         :artist => "Focus",
         :track  => "Hocus Pocus",
         :url    => "http://www.youtube.com/watch?v=g4ouPGGLI6Q"
+      },
+      {
+        :artist => "Blonde Redhead",
+        :track  => "23",
+        :url    => "http://www.youtube.com/watch?v=a7FqUNlEdwA"
       }
     ]
   end
