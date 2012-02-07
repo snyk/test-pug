@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class Songs
   def self.all
     [
@@ -80,6 +82,11 @@ class Songs
         :artist => "Animal Collective",
         :track  => "Summertime Clothes",
         :url    => "http://www.youtube.com/watch?v=GxhaRgJUMl8"
+      },
+      {
+        :artist => "Sigur Rós",
+        :track  => "Hoppípolla",
+        :url    => "http://www.youtube.com/watch?v=hnAwPeqrdAk"
       }
     ]
   end
