@@ -1,7 +1,8 @@
 fuckingawesomesongs.com
 =======================
 
-forking?
---------
+Want to submit a pull request?
+------------------------------
+
 * no fucking tab spaces
-* only "fucking awesome" songs, this isn't fuckingmediocresongs.com
+* only "fucking awesome" songs. This isn't fuckingmediocresongs.com
