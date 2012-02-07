@@ -70,6 +70,16 @@ class Songs
         :artist => "The Turbo A.C's",
         :track  => "St. Lewis",
         :url    => "http://www.youtube.com/watch?v=PsFQRgb2350"
+      },
+      {
+        :artist => "Queen",
+        :track  => "Under Pressure",
+        :url    => "http://www.youtube.com/watch?v=xtrEN-YKLBM"
+      },
+      {
+        :artist => "Animal Collective",
+        :track  => "Summertime Clothes",
+        :url    => "http://www.youtube.com/watch?v=GxhaRgJUMl8"
       }
     ]
   end
