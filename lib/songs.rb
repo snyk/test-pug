@@ -29,7 +29,13 @@ class Songs
         :artist => "Queen",
         :track  => "Don't Stop Me Now",
         :url    => "http://www.youtube.com/watch?v=HgzGwKwLmgM"
+      },
+      {
+        :artist => "Blonde Redhead",
+        :track  => "23",
+        :url    => "http://www.youtube.com/watch?v=a7FqUNlEdwA"
       }
+
     ]
   end
 end
