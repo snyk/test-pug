@@ -29,6 +29,11 @@ class Songs
         :artist => "Queen",
         :track  => "Don't Stop Me Now",
         :url    => "http://www.youtube.com/watch?v=HgzGwKwLmgM"
+      },
+      {
+        :artist => "Bon Iver",
+        :track  => "Holocene",
+        :url    => "http://www.youtube.com/watch?v=TWcyIpul8OE"
       }
     ]
   end
