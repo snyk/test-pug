@@ -69,6 +69,11 @@ class Songs
         :artist => "Blonde Redhead",
         :track  => "23",
         :url    => "http://www.youtube.com/watch?v=a7FqUNlEdwA"
+      },
+      {
+        :artist => "Queen",
+        :track  => "Under Pressure"
+        :url    => "http://www.youtube.com/watch?v=xtrEN-YKLBM"
       }
       {
         :artist => "Animal Collective",
