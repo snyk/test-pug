@@ -30,6 +30,11 @@ class Songs
         :track  => "Don't Stop Me Now",
         :url    => "http://www.youtube.com/watch?v=HgzGwKwLmgM"
       }
+      {
+        :artist => "Animal Collective",
+        :track  => "Summertime Clothes",
+        :url    => "http://www.youtube.com/watch?v=GxhaRgJUMl8"
+      }
     ]
   end
 end
