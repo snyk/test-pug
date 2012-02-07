@@ -29,7 +29,11 @@ class Songs
         :artist => "Queen",
         :track  => "Don't Stop Me Now",
         :url    => "http://www.youtube.com/watch?v=HgzGwKwLmgM"
-      }
+      },
+      {
+        :artist => "Focus",
+        :track  => "Hocus Pocus",
+        :url    => "http://www.youtube.com/watch?v=g4ouPGGLI6Q"
     ]
   end
 end
