@@ -87,7 +87,7 @@ class Songs
         :artist => "Sigur Rós",
         :track  => "Hoppípolla",
         :url    => "http://www.youtube.com/watch?v=hnAwPeqrdAk"
-      }
+      },
       {
         :artist => "Gotye",
         :track  => "Somebody That I Used To Know",
