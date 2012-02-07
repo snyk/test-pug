@@ -24,6 +24,11 @@ class Songs
         :artist => "Led Zeppelin",
         :track  => "Tangerine",
         :url    => "http://www.youtube.com/watch?v=leeMrymeflQ"
+      },
+      {
+        :artist => "Queen",
+        :track  => "Don't Stop Me Now",
+        :url    => "http://www.youtube.com/watch?v=HgzGwKwLmgM"
       }
     ]
   end
