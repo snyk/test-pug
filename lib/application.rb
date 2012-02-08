@@ -11,6 +11,10 @@ class Application < Sinatra::Base
     haml :index
   end
 
+  get "/submit" do
+    haml :submit
+  end
+
   def redirect_to_random_song
     random_song = Songs.all.sample
     redirect "/#{slugify(random_song[:artist])}/#{slugify(random_song[:track])}"
