@@ -13,6 +13,6 @@ class Songs
   private
 
     def self.download_songs
-      @songs = JSON.parse(HTTParty.get("https://raw.github.com/AndrewVos/fuckingawesomesongs.com/master/songs").body)
+      @songs = JSON.parse(HTTParty.get("https://raw.github.com/AndrewVos/fuckingawesomesongs.com/master/songs.json").body)
     end
 end
