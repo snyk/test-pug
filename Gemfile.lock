@@ -2,7 +2,12 @@ GEM
   remote: http://rubygems.org/
   specs:
     haml (3.1.4)
+    httparty (0.8.1)
+      multi_json
+      multi_xml
     minitest (2.11.1)
+    multi_json (1.0.4)
+    multi_xml (0.4.1)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -19,6 +24,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  httparty
   minitest
   rack-test
   sinatra
