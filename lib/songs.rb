@@ -92,6 +92,11 @@ class Songs
         :artist => "Gotye",
         :track  => "Somebody That I Used To Know",
         :url    => "http://www.youtube.com/watch?v=8UVNT4wvIGY"
+      },
+      {
+        :artist => "Kings of Leon",
+        :track  => "Sex On Fire",
+        :url    => "http://www.youtube.com/watch?v=RF0HhrwIwp0"
       }
     ]
   end
