@@ -17,11 +17,11 @@ class Application < Sinatra::Base
 
   def redirect_to_random_song
     random_song = Songs.all.sample
-    redirect "/#{slugify(random_song[:artist])}/#{slugify(random_song[:track])}"
+    redirect "/#{slugify(random_song["artist"])}/#{slugify(random_song["track"])}"
   end
 
   def song
-    Songs.all.find {|s| slugify(s[:artist]) == params[:artist] && slugify(s[:track]) == params[:track]}
+    Songs.all.find {|s| slugify(s["artist"]) == params[:artist] && slugify(s["track"]) == params[:track]}
   end
 
   def slugify string
