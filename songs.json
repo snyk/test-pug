@@ -103,11 +103,15 @@
     "artist": "Tears For Fears",
     "track":  "Pale Shelter",
     "url":    "http://www.youtube.com/watch?v=KTn4o2Z-vZU"
-  }
-  ,
+  },
   {
     "artist": "Skrillex",
     "track":  "First Of The Year (Equinox)",
     "url":    "http://www.youtube.com/watch?v=2cXDgFwE13g&hd=1"
+  },
+  {
+    "artist": "Kiss",
+    "track":  "I was made for loving you",
+    "url":    "http://www.youtube.com/watch?v=kNGNLo8K6Fk"
   }
 ]
