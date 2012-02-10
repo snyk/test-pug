@@ -113,5 +113,10 @@
     "artist": "Kiss",
     "track":  "I was made for loving you",
     "url":    "http://www.youtube.com/watch?v=kNGNLo8K6Fk"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "track":  "Dreams",
+    "url":    "https://www.youtube.com/watch?v=YEi7GPkxfsE"
   }
 ]
