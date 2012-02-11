@@ -2,7 +2,7 @@
   %h2
     %a.song-title{:href => song["url"]}= "#{song["artist"]} - #{song["track"]}"
   %h3
-    %a{:href => "/"} Click here for another fucking awesome song
+    %a{:href => random_song_url} Click here for another fucking awesome song
   %iframe.player{:title            => "#{song["artist"]} - #{song["track"]}",
                          :src              => song["url"].gsub("watch?v=", "embed/"),
                          :type             => "text/html",

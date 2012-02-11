@@ -16,8 +16,12 @@ class Application < Sinatra::Base
   end
 
   def redirect_to_random_song
+    redirect random_song_url
+  end
+
+  def random_song_url
     random_song = Songs.all.sample
-    redirect "/#{slugify(random_song["artist"])}/#{slugify(random_song["track"])}"
+    "/#{slugify(random_song["artist"])}/#{slugify(random_song["track"])}"
   end
 
   def song
