@@ -4,10 +4,6 @@ require "json"
 class Songs
   def self.all
     @songs ||= download_songs
-    Process.fork do
-      @songs = download_songs
-    end
-    @songs
   end
 
   private
