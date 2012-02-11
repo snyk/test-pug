@@ -123,5 +123,10 @@
     "artist": "TV on the Radio",
     "track":  "Wolf Like Me",
     "url":    "http://www.youtube.com/watch?v=5R_6aC6m9Xg"
+  },
+  {
+    "artist": "Band of Horses",
+    "track":  "The Funeral",
+    "url":    "http://www.youtube.com/watch?v=5R_6aC6m9Xg"
   }
 ]
