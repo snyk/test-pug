@@ -123,5 +123,10 @@
     "artist": "Rage Against The Machine",
     "track":  "Killing In The Name",
     "url":    "http://www.youtube.com/watch?v=8de2W3rtZsA"
+  },
+  {
+    "artist": "System Of A Down",
+    "track":  "Chop Suey",
+    "url":    "http://www.youtube.com/watch?v=CSvFpBOe8eY"
   }
 ]
