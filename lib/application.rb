@@ -16,7 +16,7 @@ class Application < Sinatra::Base
   end
 
   def redirect_to_random_song
-    redirect random_song_url
+    redirect next_random_song_url
   end
 
   def next_random_song_url
