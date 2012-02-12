@@ -15,24 +15,20 @@ class Application < Sinatra::Base
     haml :submit
   end
 
+  get "/songs" do
+    haml :songs
+  end
+
   def redirect_to_random_song
     redirect next_random_song_url
   end
 
-  def song_title
-    "#{song["artist"]} - #{song["track"]}"
-  end
-
   def next_random_song_url
     random_song = Songs.all.sample
-    @next_random_song_url ||= "/#{slugify(random_song["artist"])}/#{slugify(random_song["track"])}"
+    @next_random_song_url ||= random_song.url
   end
 
   def song
-    Songs.all.find {|s| slugify(s["artist"]) == params[:artist] && slugify(s["track"]) == params[:track]}
-  end
-
-  def slugify string
-    string.downcase.gsub(/&/, 'and').gsub(/\s+/, '-').gsub(/[^a-z0-9-]/, '')
+    Songs.all.find {|s| s.artist.slugify == params[:artist] && s.track.slugify == params[:track]}
   end
 end
