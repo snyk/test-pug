@@ -16,9 +16,13 @@ class Songs
   private
 
     def self.download_songs
-      hash = JSON.parse(HTTParty.get("https://raw.github.com/AndrewVos/fuckingawesomesongs.com/master/songs.json").body)
-      hash.map do |song_hash|
-        Song.new(song_hash)
+      data = HTTParty.get("https://raw.github.com/AndrewVos/fuckingawesomesongs.com/master/songs.flat").body
+      data.split("---").map do |song_blob|
+        Song.new(
+          song_blob.scan(/artist\:\s*(.+)/).first.first,
+          song_blob.scan(/track\:\s*(.+)/).first.first,
+          song_blob.scan(/id\:\s*(.+)/).first.first
+        )
       end
     end
 end
@@ -26,12 +30,12 @@ end
 class Song
   attr_reader :id, :artist, :track, :url, :title, :youtube_url
 
-  def initialize hash
-    @id           = hash["id"]
-    @artist       = hash["artist"]
-    @track        = hash["track"]
+  def initialize artist, track, id
+    @id           = id
+    @artist       = artist
+    @track        = track
     @url          = "/#{artist.slugify}/#{track.slugify}"
-    @title        = "#{hash["artist"]} - #{hash["track"]}"
-    @youtube_url  = "http://www.youtube.com/watch?v=#{hash["id"]}"
+    @title        = "#{artist} - #{track}"
+    @youtube_url  = "http://www.youtube.com/watch?v=#{id}"
   end
 end
