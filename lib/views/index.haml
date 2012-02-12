@@ -1,15 +1,12 @@
 %div.song
   %h2
-    %a.song-title{:href => song["url"]}= "#{song["artist"]} - #{song["track"]}"
+    %a.song-title{:href => "http://www.youtube.com/watch?v=#{song["id"]}"}= "#{song["artist"]} - #{song["track"]}"
   %h3
-    %a{:href => random_song_url} Click here for another fucking awesome song
-  %iframe.player{:title            => "#{song["artist"]} - #{song["track"]}",
-                         :src              => song["url"].gsub("watch?v=", "embed/"),
-                         :type             => "text/html",
-                         :width            => "640",
-                         :height           => "390",
-                         :frameborder      => "0",
-                         :allowFullScreen  => ""}
+    %a{:href => next_random_song_url} Click here for another fucking awesome song
+
+  %input#video-id{:type => "hidden", :value => song["id"]}
+  %input#next-song-url{:type => "hidden", :value => next_random_song_url}
+  %div#youtube-player-container
 
   %p
     Got a song that you think should be here?
@@ -18,4 +15,3 @@
     and leave a comment, or
     %a{:href => "https://github.com/AndrewVos/fuckingawesomesongs.com"} fork this repository
     and add your song!
-
