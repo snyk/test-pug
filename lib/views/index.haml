@@ -1,6 +1,9 @@
 %div.song
   %h2
-    %a.song-title{:href => "http://www.youtube.com/watch?v=#{song["id"]}"}= "#{song["artist"]} - #{song["track"]}"
+    %a.song-title{:href => "http://www.youtube.com/watch?v=#{song["id"]}"}= song_title
+    %a.twitter-share-button{:href => "http://twitter.com/share", :"data-text" => "Fucking Awesome Songs - " + song_title, :"data-count" => "horizontal", :"data-related" => "fknAwesomeSongs,AndrewVos"}
+      Tweet this song!
+      %script{:type => "text/javascript", :src => "http://platform.twitter.com/widgets.js"}
   %h3
     %a{:href => next_random_song_url} Click here for another fucking awesome song
 

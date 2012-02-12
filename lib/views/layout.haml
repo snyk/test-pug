@@ -7,18 +7,19 @@
     %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
     %script{:type => "text/javascript", :src => "/js/jQuery.tubeplayer.min.js"}
     %script{:type => "text/javascript", :src => "/js/video.js"}
-      %title
-        fuckingawesomesongs.com -
-        -if song
-          -
-          = "#{song["artist"]} - #{song["track"]}"
+    %title
+      fuckingawesomesongs.com
+      -
+      -if song
+        -
+        = song_title
   %body
     %div.container
-      %a{:href => "/"}
-        %h1
+      %h1
+        %a{:href => "/"}
           fuckingawesomesongs.com
-          %a.twitter-share-button{:href => "http://twitter.com/share", :"data-text" => "Fucking Awesome Songs", :"data-count" => "horizontal", :"data-related" => "fknAwesomeSongs,AndrewVos", :"data-url" => "fuckingawesomesongs.com"}
-            Tweet
+          %a.twitter-share-button{:href => "http://twitter.com/share", :"data-text" => "Fucking Awesome Songs", :"data-count" => "horizontal", :"data-related" => "fknAwesomeSongs,AndrewVos", :"data-url" => "http://fuckingawesomesongs.com"}
+            Tweet this song!
             %script{:type => "text/javascript", :src => "http://platform.twitter.com/widgets.js"}
       = yield
   :javascript
