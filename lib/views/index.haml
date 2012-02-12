@@ -4,9 +4,10 @@
   %h3
     %a{:href => next_random_song_url} Click here for another fucking awesome song
 
-  %input#video-id{:type => "hidden", :value => song["id"]}
-  %input#next-song-url{:type => "hidden", :value => next_random_song_url}
-  %div#youtube-player-container
+  %p
+    %input#video-id{:type => "hidden", :value => song["id"]}
+    %input#next-song-url{:type => "hidden", :value => next_random_song_url}
+    %div#youtube-player-container
 
   %p
     Got a song that you think should be here?
