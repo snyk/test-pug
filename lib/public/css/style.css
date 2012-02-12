@@ -8,6 +8,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+h1 a, h1 a:hover {
+  color: #333;
+}
+
 h2 {
   text-align: center;
 }
