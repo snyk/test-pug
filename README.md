@@ -1,5 +1,5 @@
-fuckingawesomesongs.com
-=======================
+test-pug
+========
 
 Want to submit a pull request?
 ------------------------------
